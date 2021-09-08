@@ -1,0 +1,31 @@
+
+</div>
+<small >O jogo Fuja do monstro é de autoria dos desenvolvidores Cinthya Cavlacanti Flório e Leonardo Guimarães de Holanda.<br> Esse jogo foi desenvolvido com fins didáticos para demosntrar o potencial da linguagem de programação web PHP com o paradigma orientado a objetos.
+</body>
+
+<script src="//code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<script>
+    $(document).keydown(function(e) {
+        if (e.keyCode == '37') { //left
+            $('.botao_esquedo').click();
+        }
+
+        if (e.keyCode == '39') { //right
+            $('.botao_direito').click();
+        }
+
+
+        if (e.keyCode == '38') { //up
+            $('.botao_cima').click();
+        }
+
+
+        if (e.keyCode == '40') { //down
+            $('.botao_baixo').click();
+        }
+
+    });
+
+</script>
+</html>
